@@ -1,12 +1,12 @@
 public class MSNMessenger {
        public void enviarMensagem(){
            validarConectadoInternet();
-           System.out.println("Enviando mensagem");
+           System.out.println("Enviando mensagem pelo MSN Messenger");
            salvarHistoricoMensagem();
        }
 
        public void receberMensagem(){
-           System.out.println("Recebendo mensagem");
+           System.out.println("Recebendo mensagem pelo MSN Messenger");
        }
 
         //métodos privados, visíveis somente na classe
